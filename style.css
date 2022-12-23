@@ -1,0 +1,280 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    scroll-behavior: smooth;
+}
+
+header {
+    background: #1A2238;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo {
+    margin-right: auto;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: red;
+}
+
+.btn {
+    margin-right: 10px;
+    border: none;
+    font-size: 20px;
+    padding: 6px 12px;
+    background: red;
+    color: #eaeaea;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-sosmed {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background: #ffffff;
+    margin: 15px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #96909070;
+    color: rgb(7, 243, 172);
+    overflow: hidden;
+    position: relative;
+}
+
+nav ul {
+    display: flex;
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+li :hover {
+    color: red;
+}
+
+.boxmod {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.foto {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    padding: 10px;
+}
+
+.thelema {
+    background-image: url('images/telkom.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.caliburn {
+    background-image: url('images/bromo.jpeg');
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+.cp2 {
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: #10296d;
+    width: 100%;
+}
+
+.tentang {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #1A2238;
+    color: white;
+    padding: 40px;
+}
+
+.vtc {
+    margin-top: 20px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card-item {
+    text-align: center;
+    width: 25%;
+    background: rgba(255, 255, 255, 0.685);
+    color: black;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.card-item-campus {
+    text-align: center;
+    width: 90%;
+    background: rgba(255, 255, 255, 0.76);
+    color: black;
+    padding: 40px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.card-item-sosmed {
+    text-align: center;
+    width: 25%;
+    background: white;
+    margin-left: 20px;
+    color: black;
+    padding: 15px 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.card-title-campus {
+    font-size: 40px;
+    font-weight: bolder;
+    font-family:sans-serif;
+}
+
+.card-description-campus {
+    font-size: 20px;
+    margin-top: 4px;
+}
+
+.card-title {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.card-description {
+    font-size: 18px;
+    margin-top: 4px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+.etrash {
+    width: 220px;
+}
+
+.foto-sosmed {
+    width: 50px;
+}
+
+.sosmed{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.text-sosmed {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+}
+
+.esas{
+    margin-top: 150px;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #1A2238;
+    color: white;
+}
+
+.footme {
+    font-family: serif;
+    font-size: 12px;
+}
+
+@media screen and (max-width: 500px) {
+
+    .card {
+        flex-direction: column;
+    }
+
+    .card-item {
+        width: 100%;
+    }
+
+    .boxmod {
+        width: 100%;
+        padding: 0;
+    }
+
+    .intro {
+        margin-top: 20px;
+    }
+
+    .foto {
+        padding: 0;
+    }
+    .etrash {
+        margin-top: -100px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+
+    .thelema {
+        height: 140vh;
+    }
+}
+
